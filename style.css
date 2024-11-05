@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Ballet:opsz@16..72&family=Corinthia:wght@400;700&family=Exo+2:ital,wght@0,100..900;1,100..900&family=Itim&family=Kavivanar&family=Meow+Script&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&family=Rubik+Wet+Paint&family=Tangerine:wght@400;700&family=WindSong:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ballet:opsz@16..72&family=Corinthia:wght@400;700&family=Exo+2:ital,wght@0,100..900;1,100..900&family=Herr+Von+Muellerhoff&family=Imperial+Script&family=Itim&family=Kavivanar&family=Meow+Script&family=Monsieur+La+Doulaise&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&family=Rubik+Wet+Paint&family=Tangerine:wght@400;700&family=WindSong:wght@400;500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    border: none;
+    
+}
+
+
+body{
+    
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(235, 228, 219);
+    
+    font-family: "Montserrat", sans-serif;
+    
+    
+    
+}
+
+header{
+    width: 600px;
+    height: 250px;
+    background-image: url(aesthetic-home-office-desk-workspace-laptop-computer-notebook-coffee-cup-wooden-table-influencer-lifestyle-blog-background_408798-11249.avif);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    border: solid black;
+    border-bottom: none;
+    border-top: none;
+
+   
+   
+}
+
+main{
+    background-color: rgb(235, 228, 219);
+    width: 600px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Montserrat", sans-serif;
+    gap: 20px;
+    border: solid black;
+    border-bottom: none;
+    border-top: none;
+    
+}
+
+header p{
+    position: relative;
+    top: 370px;
+    font-family: "Imperial Script", cursive;
+    font-size: 50px;
+    
+    
+}
+
+p{
+    font-size: smaller;
+    position: relative;
+    bottom: 30px;
+}
+
+img{
+    height: 200px;
+    border-radius: 50%;
+    border: 5px solid  rgb(235, 228, 219);
+    position: relative;
+    bottom: 100px;
+    
+}
+
+footer{
+    background-color: rgb(235, 228, 219);
+    width: 600px;
+    height: 110px;
+    border: solid black;
+    border-top: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    text-decoration: underline;
+}
+
+main a{
+    border: 2px solid black;
+    border-radius: 2rem;
+    margin-bottom: 30px;
+    padding: 2rem;
+    width: 300px;
+    text-align: center;
+    color: black;
+    background-color: rgb(236, 234, 231);
+
+}
